@@ -22,7 +22,7 @@ jobs:
   test-in-container:
     runs-on: ubuntu-latest
     container:
-      image: orky/pyt:v0.1
+      image: pytest_app:v1 
       # all dependencies (pytest) are already in this docker image hosted as public image in YOUR Docker Hub account
 
     steps:

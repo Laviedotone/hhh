@@ -33,7 +33,7 @@ class TestInit:
         assert basic_user.user_handle == "testuser"
 
     def test_initial_score_is_zero(self, basic_user):
-        assert basic_user.score  0.3
+        assert basic_user.score == 0.0
 
     def test_default_not_verified(self, basic_user):
         assert basic_user.verified is False
